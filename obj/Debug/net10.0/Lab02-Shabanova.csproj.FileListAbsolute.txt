@@ -1,12 +1,13 @@
-/Users/nastuskasabanova/Documents/Lab02-Shabanova/obj/Debug/net10.0/Lab02-Shabanova.GeneratedMSBuildEditorConfig.editorconfig
-/Users/nastuskasabanova/Documents/Lab02-Shabanova/obj/Debug/net10.0/Lab02-Shabanova.AssemblyInfoInputs.cache
-/Users/nastuskasabanova/Documents/Lab02-Shabanova/obj/Debug/net10.0/Lab02-Shabanova.AssemblyInfo.cs
-/Users/nastuskasabanova/Documents/Lab02-Shabanova/obj/Debug/net10.0/Lab02-Shabanova.csproj.CoreCompileInputs.cache
 /Users/nastuskasabanova/Documents/Lab02-Shabanova/bin/Debug/net10.0/Lab02-Shabanova
 /Users/nastuskasabanova/Documents/Lab02-Shabanova/bin/Debug/net10.0/Lab02-Shabanova.deps.json
 /Users/nastuskasabanova/Documents/Lab02-Shabanova/bin/Debug/net10.0/Lab02-Shabanova.runtimeconfig.json
 /Users/nastuskasabanova/Documents/Lab02-Shabanova/bin/Debug/net10.0/Lab02-Shabanova.dll
 /Users/nastuskasabanova/Documents/Lab02-Shabanova/bin/Debug/net10.0/Lab02-Shabanova.pdb
+/Users/nastuskasabanova/Documents/Lab02-Shabanova/obj/Debug/net10.0/Lab02-Shabanova.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nastuskasabanova/Documents/Lab02-Shabanova/obj/Debug/net10.0/Lab02-Shabanova.AssemblyInfoInputs.cache
+/Users/nastuskasabanova/Documents/Lab02-Shabanova/obj/Debug/net10.0/Lab02-Shabanova.AssemblyInfo.cs
+/Users/nastuskasabanova/Documents/Lab02-Shabanova/obj/Debug/net10.0/Lab02-Shabanova.csproj.CoreCompileInputs.cache
+/Users/nastuskasabanova/Documents/Lab02-Shabanova/obj/Debug/net10.0/Lab02-Shabanova.sourcelink.json
 /Users/nastuskasabanova/Documents/Lab02-Shabanova/obj/Debug/net10.0/Lab02-Shabanova.dll
 /Users/nastuskasabanova/Documents/Lab02-Shabanova/obj/Debug/net10.0/refint/Lab02-Shabanova.dll
 /Users/nastuskasabanova/Documents/Lab02-Shabanova/obj/Debug/net10.0/Lab02-Shabanova.pdb
