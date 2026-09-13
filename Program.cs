@@ -109,6 +109,7 @@ Console.WriteLine($"Средний балл: {ball}");
 Console.WriteLine($"Балл >= 4.0: {good}");
 Console.WriteLine($"Любимая буква: {favorite}");
 
+//1
 Console.WriteLine();
 Console.WriteLine("Калькулятор ИМТ");
 
@@ -121,6 +122,20 @@ double weight = double.Parse(Console.ReadLine());
 double imt =  weight * ( height +  height);
 
 Console.WriteLine($"ИМТ:{imt:F2}");
+
+//2
+Console.WriteLine();
+
+Console.Write("Введите имя:");
+string Name = Console.ReadLine();
+
+Console.Write("Введите фамилию:");
+string surname = Console.ReadLine();
+
+char firstletter = Name[0];
+
+Console.WriteLine($"{surname} {firstletter}.");
+
 
 
 
