@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Lab02-Shabanova")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f466d7becff7e8f84cb5f54bb89c66ceca1fe110")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b3edb675b4784fccf18955192a645b0e511f959b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Lab02-Shabanova")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Lab02-Shabanova")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

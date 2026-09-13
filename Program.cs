@@ -40,9 +40,9 @@ Console.WriteLine($"decimal: 0.1 + 0.2 = {priceDecimal}");
 Console.WriteLine();
 Console.WriteLine("var");
 
-var studentAge = 20;
-var gpa = 4.75;
-var fullName = "Смирнова А.С.";
+var studentAge = 20; //компилятор вывел int
+var gpa = 4.75; // компилятор вывел double
+var fullName = "Смирнова А.С."; // компилятор вывел string
 
 Console.WriteLine($"{fullName}, возвраст {studentAge}, средний балл {gpa}");
 
@@ -79,3 +79,35 @@ bool wasSuccessful = int.TryParse(booksInput, out int booksCount);
 
 Console.WriteLine($"Удалось преобразовать: {wasSuccessful}");
 Console.WriteLine($"Значение переменной booksCount:{booksCount}");
+
+//Итоговая пратика 
+
+Console.Write("Введите имя и фамилию: ");
+string name = Console.ReadLine();
+
+Console.Write("Введите группу:");
+string group = Console.ReadLine();
+
+Console.Write("Введите год рождения: ");
+int age = int.Parse(Console.ReadLine());
+
+Console.Write("Ваш средний балл за прошлый семестр: ");
+double ball = double.Parse(Console.ReadLine());
+
+Console.Write("Ваша любимая буква алфавита: ");
+char favorite = Console.ReadLine()[0];
+
+bool good = ball >= 4.0;
+
+Console.WriteLine();
+Console.WriteLine("    Анкета    ");
+Console.WriteLine($"{name}, группа {group}");
+Console.WriteLine($"Год рождения: {age} (в 2030 будет {2030 - age} год)");
+Console.WriteLine($"Средний балл: {ball}");
+Console.WriteLine($"Балл >= 4.0: {good}");
+Console.WriteLine($"Любимая буква: {favorite}");
+
+
+
+
+
