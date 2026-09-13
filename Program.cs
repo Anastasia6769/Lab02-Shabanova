@@ -1,4 +1,6 @@
-﻿Console.WriteLine("Границы целочисленных типов");
+﻿using System.Runtime.Intrinsics.X86;
+
+Console.WriteLine("Границы целочисленных типов");
 Console.WriteLine($"byte: {byte.MinValue} .. {byte.MaxValue}");
 Console.WriteLine($"short: {byte.MinValue} .. {short.MaxValue}");
 Console.WriteLine($"int: {int.MinValue} .. {int.MaxValue}");
@@ -106,6 +108,22 @@ Console.WriteLine($"Год рождения: {age} (в 2030 будет {2030 - a
 Console.WriteLine($"Средний балл: {ball}");
 Console.WriteLine($"Балл >= 4.0: {good}");
 Console.WriteLine($"Любимая буква: {favorite}");
+
+Console.WriteLine();
+Console.WriteLine("Калькулятор ИМТ");
+
+Console.WriteLine("Введите ваш рост");
+double height = double.Parse(Console.ReadLine());
+
+Console.WriteLine("Введите ваш вес в килограммах");
+double weight = double.Parse(Console.ReadLine());
+
+double imt =  weight * ( height +  height);
+
+Console.WriteLine($"ИМТ:{imt:F2}");
+
+
+
 
 
 
