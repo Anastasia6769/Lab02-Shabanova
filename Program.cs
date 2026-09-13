@@ -136,6 +136,25 @@ char firstletter = Name[0];
 
 Console.WriteLine($"{surname} {firstletter}.");
 
+//3
+Console.WriteLine();
+Console.WriteLine("Введите целое число:");
+string intInput = Console.ReadLine();
+bool intSuccessful = int.TryParse(intInput,out int intCount);
+Console.WriteLine($"Целое число: успешно = {intSuccessful}, значение = {intCount}");
+
+Console.WriteLine("Введите дробное число:");
+string doubleInput = Console.ReadLine();
+bool doubleSuccessful = double.TryParse(doubleInput,out double doubleCount);
+Console.WriteLine($"Дробное число: успешно = {doubleSuccessful}, значение = {doubleCount}");
+
+Console.WriteLine("Введите дату:");
+string dateInput = Console.ReadLine();
+bool dateSuccessful = DateTime.TryParse(dateInput,out DateTime dateCount);
+Console.WriteLine($"Дата (дд.мм.гггг):успешно = {dateSuccessful}, значение = {dateCount}");
+
+
+
 
 
 
